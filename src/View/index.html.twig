@@ -1,0 +1,20 @@
+{% extends 'base.html.twig'%}
+
+{% block title %}MVLoose{% endblock %} 
+
+
+
+
+{% block production %}
+	{% for prod in tab %}
+		<div class="card col-4">
+		  <div class="card-body">
+		    <h5 class="card-title"> {{ prod }} </h5>
+		    <p class="card-text">J'ai besion d'une corde!!!</p>
+		  </div>
+		</div>
+	{% endfor %}
+{% endblock %}
+
+
+
